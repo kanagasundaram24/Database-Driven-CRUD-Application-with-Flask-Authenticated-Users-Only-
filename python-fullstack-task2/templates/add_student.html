@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+        <style>
+        body{
+    font-family: Arial, sans-serif;
+    background-color:#f4f6f9;
+    margin:0;
+    padding:0;
+}
+
+.container{
+    width:600px;
+    margin:40px auto;
+    background:white;
+    padding:20px;
+    border-radius:8px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+h2{
+    text-align:center;
+    color:#333;
+}
+
+input{
+    width:100%;
+    padding:8px;
+    margin:5px 0 15px 0;
+    border:1px solid #ccc;
+    border-radius:4px;
+}
+
+button{
+    width:100%;
+    padding:10px;
+    background:#007BFF;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#0056b3;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:20px;
+}
+
+table th, table td{
+    border:1px solid #ddd;
+    padding:8px;
+    text-align:center;
+}
+
+table th{
+    background:#007BFF;
+    color:white;
+}
+
+a{
+    text-decoration:none;
+    color:#007BFF;
+}
+    </style>
+</head>
+<body>
+<h2>Add Student</h2>
+
+<form method="POST">
+
+Name<br>
+<input type="text" name="name"><br><br>
+
+Email<br>
+<input type="text" name="email"><br><br>
+
+Course<br>
+<input type="text" name="course"><br><br>
+
+<button type="submit">Add Student</button>
+
+</form>
+</body>
+</html>
